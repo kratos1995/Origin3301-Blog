@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block content %}
+<div class="container div_divider "style="margin-top: 40px">
+        <!-- 分割线 -->
+{#    <hr class="hr_1">Bigname Technology World !<hr class="hr_2">#}
+    <div class="row">
+        <!-- 文章列表 -->
+        <div class="col-xs-8 alert "style="background-color: #ffffff"  role="alert">
+            <h1 class="alert-heading">{{ article.title|safe }}</h1>
+            <hr>
+            <div class="">作者：{{ article.author|safe }}
+                <a class="">&emsp; 发布时间：{{ article.created|safe }}&emsp; 浏览数：{{ article.visiting }}</a>
+            </div>
+            <hr>
+            <!-- 文章正文 -->
+            <div class="bd-content highlighter-context">
+                <p>{{ article.body|safe }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

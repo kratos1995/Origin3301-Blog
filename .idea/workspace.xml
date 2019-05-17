@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="235918d6-6540-4bdc-a7f8-61c86a1cfc00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Origin3301_Blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/static/blog/css/home_card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/templates/Blog/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/templates/Blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Origin3301_Blog/apps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Origin3301_Blog/templates/Banner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Origin3301_Blog/templates/_pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Origin3301_Blog/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Origin3301_Blog/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Origin3301_Blog/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Origin3301_Blog/templates/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Origin3301_Blog/Origin3301_Blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Origin3301_Blog/Origin3301_Blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Origin3301_Blog/Origin3301_Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Origin3301_Blog/Origin3301_Blog/urls.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-250791758">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="4" />
+          <entry key="html" value="33" />
+          <entry key="js" value="3" />
+          <entry key="png" value="1" />
+          <entry key="py" value="39" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="33" />
+          <entry key="Image" value="1" />
+          <entry key="JavaScript" value="3" />
+          <entry key="Python" value="39" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="105" />
+          <entry key="html" value="3779" />
+          <entry key="js" value="2" />
+          <entry key="py" value="9855" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="105" />
+          <entry key="HTML" value="3779" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Python" value="9855" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/templates/Blog/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="54" column="70" lean-forward="true" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#2;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#3;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Origin3301_Blog/templates/_pagination.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Origin3301_Blog/templates/Banner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Origin3301_Blog/templates/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Origin3301_Blog/templates/sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+                <marker date="1558074066121" expanded="true" signature="318:319" ph="..." />
+                <marker date="1558074066121" expanded="true" signature="1067:1224" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/templates/Blog/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <folding>
+                <element signature="e#104#128#0#HTML" expanded="true" />
+                <element signature="e#276#309#0#HTML" expanded="true" />
+                <element signature="e#460#466#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+              <folding>
+                <element signature="e#27#55#0" expanded="true" />
+                <marker date="1557908229832" expanded="true" signature="516:525" ph="..." />
+                <marker date="1557908229832" expanded="true" signature="675:896" ph="..." />
+                <marker date="1557908229832" expanded="true" signature="3369:3372" ph="..." />
+                <marker date="1557908229832" expanded="true" signature="3411:3416" ph="..." />
+                <marker date="1557908229832" expanded="true" signature="3600:3605" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Origin3301_Blog/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="22" column="62" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Origin3301_Blog/templates/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>xl</find>
+      <find>script</find>
+      <find>js</find>
+      <find>bootstrap.min.css</find>
+      <find>favicon</find>
+      <find>post_list</find>
+      <find>laws</find>
+      <find>header</find>
+      <find>favicon.ico</find>
+      <find>/favicon.ico</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Origin3301_Blog/__init__.py" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/backend/models.py" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/__init__.py" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/static/blog/css/home_card.css" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/templates/Blog/Banner.html" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/templates/sidebar.html" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/admin.py" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/Origin3301_Blog/settings.py" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/templates/Blog/post_list.html" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/templates/post_list.html" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/templates/_pagination.html" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/templates/Blog/blog_conter.html" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/templates/Blog/show.html" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/templates/Banner.html" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/templates/footer.html" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/urls.py" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/Origin3301_Blog/urls.py" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/static/blog/js/Mycanvas.js" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/static/blog/css/mycanvascs.css" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/templates/header.html" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/templates/Blog/detail.html" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/templates/base.html" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/templates/Blog/index.html" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/models.py" />
+        <option value="$PROJECT_DIR$/Origin3301_Blog/apps/Blog/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Origin3301_Blog/static/bootstrapss/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="471" />
+    <option name="y" value="29" />
+    <option name="width" value="1217" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Origin3301-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Origin3301-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Origin3301_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Wordking/CODE/WDOA/Origin3301-Blog/Origin3301_Blog/apps/Blog/models.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Origin3301_Blog" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Wordking\CODE\WDOA\Origin3301-Blog\Origin3301_Blog\apps\Blog\templates\Blog" />
+      <recent name="E:\Wordking\CODE\WDOA\Origin3301-Blog\Origin3301_Blog\templates" />
+      <recent name="E:\Wordking\CODE\WDOA\Origin3301-Blog\Origin3301_Blog\apps" />
+      <recent name="E:\Wordking\CODE\WDOA\Origin3301-Blog\Origin3301_Blog" />
+      <recent name="E:\Wordking\CODE\WDOA\Origin3301-Blog\Origin3301_Blog\apps\backend" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Origin3301-Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="127.0.0.10" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.10:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Origin3301-Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="127.0.0.10" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="235918d6-6540-4bdc-a7f8-61c86a1cfc00" name="Default Changelist" comment="" />
+      <created>1556432447861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556432447861</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="471" y="29" width="1217" height="1028" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25583404" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.22620381" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="4" weight="0.21374866" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.1778742" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32867885" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/backend/apps.py" />
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/backend/models.py" />
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/frontend/config/index.js" />
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/django/contrib/admin/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="529" column="77" lean-forward="true" selection-start-line="529" selection-start-column="77" selection-end-line="529" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/media/upload/2019/04/30/request.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/static/blog/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/static/blog/css/home_card.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/static/blog/css/pace.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/templates/post_list.html" />
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/templates/Blog/show.html" />
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/Origin3301_Blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/static/blog/js/Mycanvas.js" />
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/static/blog/css/mycanvascs.css" />
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/Origin3301_Blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="e#314#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/static/blog/js/modernizr.custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/templates/Blog/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <element signature="e#104#128#0#HTML" expanded="true" />
+            <element signature="e#276#309#0#HTML" expanded="true" />
+            <element signature="e#460#466#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/templates/_pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/templates/Banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="22" column="62" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/templates/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/templates/Blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="54" column="70" lean-forward="true" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#2;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#3;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="e#27#55#0" expanded="true" />
+            <marker date="1557908229832" expanded="true" signature="516:525" ph="..." />
+            <marker date="1557908229832" expanded="true" signature="675:896" ph="..." />
+            <marker date="1557908229832" expanded="true" signature="3369:3372" ph="..." />
+            <marker date="1557908229832" expanded="true" signature="3411:3416" ph="..." />
+            <marker date="1557908229832" expanded="true" signature="3600:3605" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Origin3301_Blog/apps/Blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+            <marker date="1558074066121" expanded="true" signature="318:319" ph="..." />
+            <marker date="1558074066121" expanded="true" signature="1067:1224" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

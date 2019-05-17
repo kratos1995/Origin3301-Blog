@@ -11,9 +11,13 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-
+import sys
+from django.conf.urls.static import static
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# sys.path.insert(0, BASE_DIR)
+sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
+sys.path.insert(0, os.path.join(BASE_DIR, 'extra_apps'))
 
 
 # Quick-start development settings - unsuitable for production
@@ -25,7 +29,7 @@ SECRET_KEY = 'zxwl5z13t&ge=_!bo$r=z5bgk$b%$8+jc^6xy7n5l&+avd(9cs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,7 +41,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'Blog.apps.BlogConfig',
+    'ckeditor',
+    'ckeditor_uploader',
+    'pure_pagination',
 ]
+
+PAGINATION_SETTINGS = {
+    'PAGE_RANGE_DISPLAYED': 10,    #中间显示的个数
+    'MARGIN_PAGES_DISPLAYED': 2,  #两边显示的个数
+
+    'SHOW_FIRST_PAGE_WHEN_INVALID': True,
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -47,6 +63,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # 'django.template.context_processors.media',
 ]
 
 ROOT_URLCONF = 'Origin3301_Blog.urls'
@@ -54,7 +71,7 @@ ROOT_URLCONF = 'Origin3301_Blog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -72,11 +89,23 @@ WSGI_APPLICATION = 'Origin3301_Blog.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
+#
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': "oringin3301_blog",
+        'USER':'root',
+        'PASSWORD':'Chen1995',
+        'HOST':"127.0.0.1",
+        'PORT':'3306',
+        'OPTIONS':{'init_command':'SET default_storage_engine=INNODB;'}
     }
 }
 
@@ -100,12 +129,41 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
+# ckeditor
+CKEDITOR_CONFIGS = {
+    # 将这份配置命名为 my_config
+    'my_config': {
+        'skin': 'moono-lisa',
+        'toolbar_Basic': [
+            ['Source', '-', 'Bold', 'Italic']
+        ],
+        'toolbar_Full': [
+            ['Styles', 'Format', 'Bold', 'Italic', 'Underline', 'Strike', 'SpellChecker', 'Undo', 'Redo'],
+            ['Link', 'Unlink', 'Anchor'],
+            ['Image', 'Flash', 'Table', 'HorizontalRule'],
+            ['TextColor', 'BGColor'],
+            ['Smiley', 'SpecialChar'],
+            # 在工具栏中添加该功能的按钮
+            ['CodeSnippet'], ['Source'],
+
+        ],
+        'toolbar': 'Full',
+        'height': 291,
+        'width': 835,
+        'filebrowserWindowWidth': 940,
+        'filebrowserWindowHeight': 725,
+        # 添加的插件
+        'extraPlugins': 'codesnippet',
+    }
+}
+
+
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
@@ -118,3 +176,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'apps/static'),
+]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+CKEDITOR_UPLOAD_PATH = 'upload/'

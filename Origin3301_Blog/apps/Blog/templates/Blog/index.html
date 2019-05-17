@@ -1,0 +1,128 @@
+<!-- extends表明此页面继承自 base.html 文件 -->
+{% extends "base.html" %}
+{% load staticfiles %}
+
+<!-- 写入 base.html 中定义的 title -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Red Origin'Blog</h1>
+    <p class="lead">欢迎来到 Red Origin ,以大多数人的努力程度之低，根本轮不到去拼天赋</p>
+  </div>
+</div>
+
+
+<!-- 写入 base.html 中定义的 content -->
+{% block content %}
+
+{#<head>#}
+{#    <!-- meta -->#}
+{#    <meta charset="UTF-8">#}
+{#    <meta name="viewport" content="width=device-width, initial-scale=1">#}
+{#    <!-- css -->#}
+{#    <link rel="stylesheet" href="{% static 'blog/css/bootstrap.min.css' %}">#}
+{#    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">#}
+{#    <link rel="stylesheet" href="{% static 'blog/css/pace.css' %}">#}
+{#    <link rel="stylesheet" href="{% static 'blog/css/custom.css' %}">#}
+{##}
+{#    <!-- js -->#}
+{#    <script src="{% static 'blog/js/jquery-2.1.3.min.js' %}"></script>#}
+{#    <script src="{% static 'blog/js/bootstrap.min.js' %}"></script>#}
+{#    <script src="{% static 'blog/js/pace.min.js' %}"></script>#}
+{#    <script src="{% static 'blog/js/modernizr.custom.js' %}"></script>#}
+{##}
+{#    <style>#}
+{#        body{#}
+{#           margin: 0px;#}
+{#        }#}
+{#    </style>#}
+{##}
+{#</head>#}
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Red Origin|</h1>
+    <p class="lead">欢迎来到 Red Origin ,以大多数人的努力程度之低，根本轮不到去拼天赋</p>
+  </div>
+</div>
+<div class="container div_divider ">
+        <!-- 分割线 -->
+{#    <hr class="hr_1">Bigname Technology World !<hr class="hr_2">#}
+    <div class="row">
+        <!-- 文章列表 -->
+        <div class="col-xs-8">
+            {% for article in page_list.object_list %}
+            <div class="list-group div_article ">
+                <!-- 子头栏 -->
+                <a href="{% url 'article_detail' article.id %}" class="list-group-item list-group-item-dark item_article_first " style="background-color: #3e4243">
+                    <h4 class="list-group-item-heading " style="color: #f9fafe">{{ article.title }}</h4>
+                </a>
+                <!-- 文章列表 -->
+                <div class="list-group-item item_article "  style="background-color: #ffffff">
+                    <div class="row ">
+                        <!-- 左侧图片，信息 -->
+                        <div class="col-lg-3 div_left_info no-gutters">
+                            <img class="img-rounded" src="/media/{{ MEDIA_URL }}{{ article.title_imgs }}">
+                        </div>
+                        <div class="div_center col-xs-9">
+{#                            <div class="list-group text-muted ">#}
+{#                                <strong>{{ article.author }}</strong>#}
+{#                            </div>#}
+                            <p class="list-group-item-text div_article_content">{{ article.excerpt }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="col-xs-3 div_record ">
+{#            <aside class="col-md-4">#}
+            <div class="card bg-light mb-3">
+                <h3 class="card-header">最新文章</h3>
+                {% for new_articles in new_article %}
+                <ul class="list-group list-group-flush" style="margin: 0px">
+                    <li class="list-group-item">
+                        <a href="#" class="card-body">{{ new_articles }}</a>
+                    </li>
+                </ul>
+                {% endfor %}
+            </div>
+            <div class="card bg-light mb-3">
+                <h3 class="card-header">归档</h3>
+                {% for new_articles in new_article %}
+                <ul class="list-group list-group-flush" style="margin: 0px">
+                    <li class="list-group-item">
+                        <a href="#" class="card-body">2019-05-06</a>
+                    </li>
+                </ul>
+                {% endfor %}
+            </div>
+            <div class="card bg-light mb-3">
+                <h3 class="card-header">分类</h3>
+                {% for new_articles in new_article %}
+                <ul class="list-group list-group-flush" style="margin: 0px">
+                    <li class="list-group-item">
+                        <a href="#" class="card-body">信息安全</a>
+                    </li>
+                </ul>
+                {% endfor %}
+            </div>
+            <div class="card bg-light mb-3">
+                <h3 class="card-header">标签云</h3>
+                {% for new_articles in new_article %}
+                <ul class="list-group list-group-flush" style="margin: 0px">
+                    <li class="list-group-item">
+                        <a href="#" class="card-body">rest-freamework</a>
+                    </li>
+                </ul>
+                {% endfor %}
+            </div>
+            <div class="rss list-group-item list-group-item-dark item_article_first " style="background-color:#eeeeee">
+                <a href=""><span class="ion-social-rss-outline"></span> RSS 订阅</a>
+            </div>
+{#            </aside>#}
+        </div>
+    </div>
+</div>
+{% endblock content %}
+{#{% block _pagination %}#}
+{#{% endblock _pagination %}#}
+<script src="{% static 'blog/js/script.js' %}"></script>

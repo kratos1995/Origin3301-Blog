@@ -1,0 +1,41 @@
+<nav aria-label="navbar-collapse collapse"style="text-align: center;">
+  <ul class="nav navbar-nav"style="display: inline-block;float: none;">
+  {% if page_list.has_previous %}
+    <li>
+      <a href="?{{ page_list.previous_page_number.querystring }}" aria-label="Previous">
+        <span aria-hidden="true">上一页</span>
+      </a>
+    </li>
+  {% else %}
+    <li class="disabled">
+      <a aria-label="Previous">
+        <span aria-hidden="true">上一页</span>
+      </a>
+    </li>
+  {% endif %}
+  {% for page in page_list.pages %}
+      {% if page %}
+          {% ifequal page page_list.number %}
+              <li class=""><a href="?{{ page.querystring }}">{{ page }}</a></li>
+          {% else %}
+              <li><a href="?{{ page.querystring }}">{{ page }}</a></li>
+          {% endifequal %}
+      {% else %}
+          ...
+      {% endif %}
+  {% endfor %}
+  {% if page_list.has_next %}
+    <li>
+      <a href="?{{ page_list.next_page_number.querystring }}" aria-label="Next">
+        <span aria-hidden="true">下一页</span>
+      </a>
+    </li>
+  {% else %}
+    <li class="disabled">
+      <a aria-label="Next">
+        <span aria-hidden="true">下一页</span>
+      </a>
+    </li>
+  {% endif %}
+  </ul>
+</nav>
